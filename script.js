@@ -4,7 +4,7 @@ function Car(make, model) {
 	this.model=model;
 }
 Car.prototype.getMakeModel=function() {
-	return this._make+ " " +this.model;
+	return this.make+ " " +this.model;
 	
 };
 
